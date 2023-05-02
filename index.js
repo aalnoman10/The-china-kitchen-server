@@ -2,8 +2,10 @@ const express = require('express');
 const port = 5000;
 const app = express();
 
+const chefs = require('./data/chefs.json');
+
 app.get('/', (req, res) => {
-    res.send('Server is run the Web Browser')
+    res.send(chefs)
 })
 
 app.listen(port, () => {
