@@ -1,56 +1,104 @@
 [
     {
         "id": "1",
-        "name": "Chef Wong",
-        "description": "Specializes in Cantonese cuisine with a focus on seafood.",
-        "image_url": "https://images.unsplash.com/photo-1532444482250-cb75e6bbd1fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name": "Chef Ming Tsai",
+        "bio": "Chef Ming Tsai is a renowned chef, restaurateur, and television personality. He is known for his creative fusion of Chinese and American cuisine, blending traditional Chinese flavors and techniques with modern cooking methods. Chef Ming has received numerous awards and accolades for his innovative culinary creations and is a respected figure in the culinary industry.",
+        "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "recipes": [
+            "Kung Pao Chicken",
+            "Moo Shu Pork",
+            "Mapo Tofu",
+            "Hot and Sour Soup",
+            "General Tso's Chicken",
+            "Dan Dan Noodles"
+        ],
         "likes": 1200,
-        "numbersOfRecipes": 50,
+        "numberOfRecipes": 56,
         "yearsOfExperience": 25
     },
     {
         "id": "2",
-        "name": "Chef Lin",
-        "description": "Master of Hunan cuisine, known for fiery flavors and bold spices.",
-        "image_url": "https://plus.unsplash.com/premium_photo-1661778021952-65997d03b2b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-        "likes": 800,
-        "numbersOfRecipes": 70,
-        "yearsOfExperience": 20
+        "name": "Chef Martin Yan",
+        "bio": "Chef Martin Yan is a celebrated chef, author, and television host who has popularized Chinese cuisine in the United States. He is known for his energetic personality and expert knowledge of Chinese cooking techniques. Chef Martin has written numerous cookbooks and has hosted several television shows, including 'Yan Can Cook.'",
+        "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "recipes": [
+            "Kung Pao Chicken",
+            "Beef and Broccoli",
+            "Szechuan Shrimp",
+            "Egg Drop Soup",
+            "Orange Chicken",
+            "Lobster Cantonese"
+        ],
+        "likes": 890,
+        "numberOfRecipes": 42,
+        "yearsOfExperience": 35
     },
     {
         "id": "3",
-        "name": "Chef Chen",
-        "description": "Brings a modern twist to classic Chinese dishes, with a focus on healthy ingredients.",
-        "image_url": "https://plus.unsplash.com/premium_photo-1661778021952-65997d03b2b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-        "likes": 1500,
-        "numbersOfRecipes": 90,
-        "yearsOfExperience": 15
+        "name": "Chef Ching-He Huang",
+        "bio": "Chef Ching-He Huang is a Chinese-British chef, author, and television presenter. She is known for her modern take on Chinese cuisine, using fresh ingredients and simple cooking techniques to create healthy and flavorful dishes. Chef Ching has written several cookbooks and has hosted several television shows, including 'Chinese Food Made Easy.'",
+        "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "recipes": [
+            "Ginger Beef Stir-Fry",
+            "Hoisin Pork Ribs",
+            "Steamed Dumplings",
+            "Hot and Sour Soup",
+            "Kung Pao Chicken",
+            "Shrimp Fried Rice"
+        ],
+        "likes": 650,
+        "numberOfRecipes": 38,
+        "yearsOfExperience": 20
     },
     {
         "id": "4",
-        "name": "Chef Wu",
-        "description": "Specializes in Szechuan cuisine with a focus on spicy, bold flavors.",
-        "image_url": "https://images.unsplash.com/photo-1532444482250-cb75e6bbd1fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "likes": 1000,
-        "numbersOfRecipes": 60,
-        "yearsOfExperience": 18
+        "name": "Chef Ken Hom",
+        "bio": "Chef Ken Hom is a Chinese-American chef, author, and television presenter. He is considered one of the world's leading authorities on Chinese cuisine and has written over 30 cookbooks on the subject. Chef Ken is known for his simple and authentic approach to Chinese cooking, using fresh ingredients and traditional techniques.",
+        "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "recipes": [
+            "Beef Chow Fun",
+            "Egg Drop Soup",
+            "Kung Pao Chicken",
+            "Sichuanese Boiled Beef",
+            "Peking Duck",
+            "Stir-Fried Shrimp with Snow Peas"
+        ],
+        "likes": 820,
+        "numberOfRecipes": 48,
+        "yearsOfExperience": 40
     },
     {
         "id": "5",
-        "name": "Chef Liang",
-        "description": "Expert in Shandong cuisine, known for hearty dishes with bold flavors.",
-        "image_url": "https://plus.unsplash.com/premium_photo-1661778021952-65997d03b2b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-        "likes": 900,
-        "numbersOfRecipes": 40,
-        "yearsOfExperience": 22
+        "name": "Chef Li",
+        "bio": "Chef Li is a renowned Chinese chef with over 20 years of experience in creating delicious and authentic Chinese dishes. His passion for cooking began at a young age and has led him to become a master of his craft. Chef Li's specialties include Sichuan hot pot, Peking duck, and steamed dumplings.",
+        "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "recipes": [
+            "Sichuan Hot Pot",
+            "Peking Duck",
+            "Steamed Dumplings",
+            "Kung Pao Chicken",
+            "Mapo Tofu",
+            "Scallion Pancakes"
+        ],
+        "likes": 120,
+        "numberOfRecipes": 50,
+        "yearsOfExperience": 20
     },
     {
         "id": "6",
-        "name": "Chef Liu",
-        "description": "Brings a modern twist to classic Chinese dishes, with a focus on presentation and technique.",
-        "image_url": "https://images.unsplash.com/photo-1532444482250-cb75e6bbd1fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "likes": 1800,
-        "numbersOfRecipes": 80,
-        "yearsOfExperience": 30
+        "name": "Chef Wang",
+        "bio": "Chef Wang is a highly skilled Chinese chef with a talent for creating unique and flavorful dishes. With over 15 years of experience, he has mastered the art of cooking and brings a creative and modern approach to traditional Chinese cuisine. Chef Wang's signature dishes include Braised Pork Belly, Crispy Beef, and Cantonese-style Roast Duck.",
+        "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "recipes": [
+            "Braised Pork Belly",
+            "Crispy Beef",
+            "Cantonese-style Roast Duck",
+            "Stir-fried Noodles",
+            "Ma Po Tofu",
+            "Sesame Balls"
+        ],
+        "likes": 85,
+        "numberOfRecipes": 30,
+        "yearsOfExperience": 15
     }
 ]

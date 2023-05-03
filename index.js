@@ -4,6 +4,9 @@ const app = express();
 
 const chefs = require('./data/chefs.json');
 
+const cors = require('cors');
+app.use(cors())
+
 app.get('/', (req, res) => {
     res.send(chefs)
 })
