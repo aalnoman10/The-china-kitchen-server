@@ -5,12 +5,59 @@
         "bio": "Chef Ming Tsai is a renowned chef, restaurateur, and television personality. He is known for his creative fusion of Chinese and American cuisine, blending traditional Chinese flavors and techniques with modern cooking methods. Chef Ming has received numerous awards and accolades for his innovative culinary creations and is a respected figure in the culinary industry.",
         "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "recipes": [
-            "Kung Pao Chicken",
-            "Moo Shu Pork",
-            "Mapo Tofu",
-            "Hot and Sour Soup",
-            "General Tso's Chicken",
-            "Dan Dan Noodles"
+            {
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "1/2 cup roasted peanuts",
+                    "1 tbsp grated ginger",
+                    "1 tbsp soy sauce",
+                    "1 tbsp sugar",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil"
+                ],
+                "rating": 4.8,
+                "description": "Chef John is a renowned Sichuanese chef, known for his fiery and bold flavors that showcase the spices and aromatics of Sichuan cuisine. He has won numerous awards for his innovative take on classic Sichuan dishes."
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "6 cups chicken broth",
+                    "2 tbsp soy sauce",
+                    "2 tbsp cornstarch",
+                    "1 tbsp vegetable oil",
+                    "1 tbsp grated ginger",
+                    "4 garlic cloves, minced",
+                    "2 eggs, beaten",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.6,
+                "description": "Chef Li is a master of Cantonese cuisine, known for her delicate and subtle flavors that highlight the freshness of the ingredients. She has worked in some of the most prestigious restaurants in Guangzhou and is highly respected in the culinary community."
+            },
+            {
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "1/2 lb ground pork",
+                    "3 garlic cloves, minced",
+                    "2 tbsp soy sauce",
+                    "1 tbsp cornstarch",
+                    "2 green onions, thinly sliced",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.4,
+                "description": "Chef Zhang is a master of Sichuan cuisine, known for his bold and spicy flavors that pack a punch. He is a stickler for authenticity and uses only the finest Sichuan peppercorns and spices to create his signature dishes."
+            },
+            {
+                "name": "Steamed Fish with Ginger and Scallions",
+                "ingredients": [
+                    "1 bunch scallions, thinly sliced",
+                    "2 tbsp soy sauce",
+                    "2 tbsp rice wine or dry sherry",
+                    "1 tbsp vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.9,
+                "description": "Chef Wang is a master of Shanghainese cuisine, known for her delicate and elegant flavors that showcase the freshest seafood and vegetables. She has traveled extensively throughout China to learn about regional flavors and techniques and has won numerous awards for her innovative take on classic dishes."
+            }
         ],
         "likes": 1200,
         "numberOfRecipes": 56,
@@ -22,12 +69,57 @@
         "bio": "Chef Martin Yan is a celebrated chef, author, and television host who has popularized Chinese cuisine in the United States. He is known for his energetic personality and expert knowledge of Chinese cooking techniques. Chef Martin has written numerous cookbooks and has hosted several television shows, including 'Yan Can Cook.'",
         "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "recipes": [
-            "Kung Pao Chicken",
-            "Beef and Broccoli",
-            "Szechuan Shrimp",
-            "Egg Drop Soup",
-            "Orange Chicken",
-            "Lobster Cantonese"
+            {
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "1/2 cup roasted peanuts",
+                    "3-4 dried red chilies",
+                    "1 tbsp soy sauce",
+                    "1 tbsp sugar",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil"
+                ],
+                "rating": 4.8,
+                "description": "Chef John is a renowned Sichuanese chef, known for his fiery and bold flavors that showcase the spices and aromatics of Sichuan cuisine. He has won numerous awards for his innovative take on classic Sichuan dishes."
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "6 cups chicken broth",
+                    "2 tbsp soy sauce",
+                    "2 tbsp cornstarch",
+                    "1 tbsp vegetable oil",
+                    "2 eggs, beaten",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.6,
+                "description": "Chef Li is a master of Cantonese cuisine, known for her delicate and subtle flavors that highlight the freshness of the ingredients. She has worked in some of the most prestigious restaurants in Guangzhou and is highly respected in the culinary community."
+            },
+            {
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "1/2 lb ground pork",
+                    "1 tbsp grated ginger",
+                    "2 tbsp soy sauce",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.4,
+                "description": "Chef Zhang is a master of Sichuan cuisine, known for his bold and spicy flavors that pack a punch. He is a stickler for authenticity and uses only the finest Sichuan peppercorns and spices to create his signature dishes."
+            },
+            {
+                "name": "Steamed Fish with Ginger and Scallions",
+                "ingredients": [
+                    "1 bunch scallions, thinly sliced",
+                    "2 tbsp soy sauce",
+                    "2 tbsp rice wine or dry sherry",
+                    "1 tbsp vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.9,
+                "description": "Chef Wang is a master of Shanghainese cuisine, known for her delicate and elegant flavors that showcase the freshest seafood and vegetables. She has traveled extensively throughout China to learn about regional flavors and techniques and has won numerous awards for her innovative take on classic dishes."
+            }
         ],
         "likes": 890,
         "numberOfRecipes": 42,
@@ -39,12 +131,57 @@
         "bio": "Chef Ching-He Huang is a Chinese-British chef, author, and television presenter. She is known for her modern take on Chinese cuisine, using fresh ingredients and simple cooking techniques to create healthy and flavorful dishes. Chef Ching has written several cookbooks and has hosted several television shows, including 'Chinese Food Made Easy.'",
         "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "recipes": [
-            "Ginger Beef Stir-Fry",
-            "Hoisin Pork Ribs",
-            "Steamed Dumplings",
-            "Hot and Sour Soup",
-            "Kung Pao Chicken",
-            "Shrimp Fried Rice"
+            {
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "3-4 dried red chilies",
+                    "1 tbsp grated ginger",
+                    "1 tbsp soy sauce",
+                    "1 tbsp sugar",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil"
+                ],
+                "rating": 4.8,
+                "description": "Chef John is a renowned Sichuanese chef, known for his fiery and bold flavors that showcase the spices and aromatics of Sichuan cuisine. He has won numerous awards for his innovative take on classic Sichuan dishes."
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "6 cups chicken broth",
+                    "2 tbsp soy sauce",
+                    "2 tbsp cornstarch",
+                    "1 tbsp vegetable oil",
+                    "2 eggs, beaten",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.6,
+                "description": "Chef Li is a master of Cantonese cuisine, known for her delicate and subtle flavors that highlight the freshness of the ingredients. She has worked in some of the most prestigious restaurants in Guangzhou and is highly respected in the culinary community."
+            },
+            {
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "1/2 lb ground pork",
+                    "1 tbsp grated ginger",
+                    "2 tbsp soy sauce",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.4,
+                "description": "Chef Zhang is a master of Sichuan cuisine, known for his bold and spicy flavors that pack a punch. He is a stickler for authenticity and uses only the finest Sichuan peppercorns and spices to create his signature dishes."
+            },
+            {
+                "name": "Steamed Fish with Ginger and Scallions",
+                "ingredients": [
+                    "1-inch piece ginger, peeled and thinly sliced",
+                    "2 tbsp soy sauce",
+                    "2 tbsp rice wine or dry sherry",
+                    "1 tbsp vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.9,
+                "description": "Chef Wang is a master of Shanghainese cuisine, known for her delicate and elegant flavors that showcase the freshest seafood and vegetables. She has traveled extensively throughout China to learn about regional flavors and techniques and has won numerous awards for her innovative take on classic dishes."
+            }
         ],
         "likes": 650,
         "numberOfRecipes": 38,
@@ -56,12 +193,58 @@
         "bio": "Chef Ken Hom is a Chinese-American chef, author, and television presenter. He is considered one of the world's leading authorities on Chinese cuisine and has written over 30 cookbooks on the subject. Chef Ken is known for his simple and authentic approach to Chinese cooking, using fresh ingredients and traditional techniques.",
         "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "recipes": [
-            "Beef Chow Fun",
-            "Egg Drop Soup",
-            "Kung Pao Chicken",
-            "Sichuanese Boiled Beef",
-            "Peking Duck",
-            "Stir-Fried Shrimp with Snow Peas"
+            {
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "1/2 cup roasted peanuts",
+                    "3-4 dried red chilies",
+                    "1 tbsp grated ginger",
+                    "1 tbsp soy sauce",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil"
+                ],
+                "rating": 4.8,
+                "description": "Chef John is a renowned Sichuanese chef, known for his fiery and bold flavors that showcase the spices and aromatics of Sichuan cuisine. He has won numerous awards for his innovative take on classic Sichuan dishes."
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "6 cups chicken broth",
+                    "2 tbsp soy sauce",
+                    "2 tbsp cornstarch",
+                    "1 tbsp vegetable oil",
+                    "1 tbsp grated ginger",
+                    "2 eggs, beaten",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.6,
+                "description": "Chef Li is a master of Cantonese cuisine, known for her delicate and subtle flavors that highlight the freshness of the ingredients. She has worked in some of the most prestigious restaurants in Guangzhou and is highly respected in the culinary community."
+            },
+            {
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "1/2 lb ground pork",
+                    "1 tbsp grated ginger",
+                    "2 tbsp soy sauce",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.4,
+                "description": "Chef Zhang is a master of Sichuan cuisine, known for his bold and spicy flavors that pack a punch. He is a stickler for authenticity and uses only the finest Sichuan peppercorns and spices to create his signature dishes."
+            },
+            {
+                "name": "Steamed Fish with Ginger and Scallions",
+                "ingredients": [
+                    "1 bunch scallions, thinly sliced",
+                    "2 tbsp soy sauce",
+                    "2 tbsp rice wine or dry sherry",
+                    "1 tbsp vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.9,
+                "description": "Chef Wang is a master of Shanghainese cuisine, known for her delicate and elegant flavors that showcase the freshest seafood and vegetables. She has traveled extensively throughout China to learn about regional flavors and techniques and has won numerous awards for her innovative take on classic dishes."
+            }
         ],
         "likes": 820,
         "numberOfRecipes": 48,
@@ -73,12 +256,60 @@
         "bio": "Chef Li is a renowned Chinese chef with over 20 years of experience in creating delicious and authentic Chinese dishes. His passion for cooking began at a young age and has led him to become a master of his craft. Chef Li's specialties include Sichuan hot pot, Peking duck, and steamed dumplings.",
         "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "recipes": [
-            "Sichuan Hot Pot",
-            "Peking Duck",
-            "Steamed Dumplings",
-            "Kung Pao Chicken",
-            "Mapo Tofu",
-            "Scallion Pancakes"
+            {
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "3-4 dried red chilies",
+                    "1 tbsp grated ginger",
+                    "1 tbsp soy sauce",
+                    "1 tbsp sugar",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil"
+                ],
+                "rating": 4.8,
+                "description": "Chef John is a renowned Sichuanese chef, known for his fiery and bold flavors that showcase the spices and aromatics of Sichuan cuisine. He has won numerous awards for his innovative take on classic Sichuan dishes."
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "6 cups chicken broth",
+                    "2 tbsp soy sauce",
+                    "2 tbsp cornstarch",
+                    "1 tbsp vegetable oil",
+                    "1 tbsp grated ginger",
+                    "4 garlic cloves, minced",
+                    "2 eggs, beaten",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.6,
+                "description": "Chef Li is a master of Cantonese cuisine, known for her delicate and subtle flavors that highlight the freshness of the ingredients. She has worked in some of the most prestigious restaurants in Guangzhou and is highly respected in the culinary community."
+            },
+            {
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "1/2 lb ground pork",
+                    "3 garlic cloves, minced",
+                    "1 tbsp grated ginger",
+                    "2 tbsp soy sauce",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.4,
+                "description": "Chef Zhang is a master of Sichuan cuisine, known for his bold and spicy flavors that pack a punch. He is a stickler for authenticity and uses only the finest Sichuan peppercorns and spices to create his signature dishes."
+            },
+            {
+                "name": "Steamed Fish with Ginger and Scallions",
+                "ingredients": [
+                    "1 bunch scallions, thinly sliced",
+                    "2 tbsp soy sauce",
+                    "2 tbsp rice wine or dry sherry",
+                    "1 tbsp vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.9,
+                "description": "Chef Wang is a master of Shanghainese cuisine, known for her delicate and elegant flavors that showcase the freshest seafood and vegetables. She has traveled extensively throughout China to learn about regional flavors and techniques and has won numerous awards for her innovative take on classic dishes."
+            }
         ],
         "likes": 120,
         "numberOfRecipes": 50,
@@ -90,12 +321,59 @@
         "bio": "Chef Wang is a highly skilled Chinese chef with a talent for creating unique and flavorful dishes. With over 15 years of experience, he has mastered the art of cooking and brings a creative and modern approach to traditional Chinese cuisine. Chef Wang's signature dishes include Braised Pork Belly, Crispy Beef, and Cantonese-style Roast Duck.",
         "imageUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "recipes": [
-            "Braised Pork Belly",
-            "Crispy Beef",
-            "Cantonese-style Roast Duck",
-            "Stir-fried Noodles",
-            "Ma Po Tofu",
-            "Sesame Balls"
+            {
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "1/2 cup roasted peanuts",
+                    "1 tbsp grated ginger",
+                    "1 tbsp soy sauce",
+                    "1 tbsp sugar",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil"
+                ],
+                "rating": 4.8,
+                "description": "Chef John is a renowned Sichuanese chef, known for his fiery and bold flavors that showcase the spices and aromatics of Sichuan cuisine. He has won numerous awards for his innovative take on classic Sichuan dishes."
+            },
+            {
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "6 cups chicken broth",
+                    "2 tbsp cornstarch",
+                    "1 tbsp vegetable oil",
+                    "1 tbsp grated ginger",
+                    "4 garlic cloves, minced",
+                    "2 eggs, beaten",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.6,
+                "description": "Chef Li is a master of Cantonese cuisine, known for her delicate and subtle flavors that highlight the freshness of the ingredients. She has worked in some of the most prestigious restaurants in Guangzhou and is highly respected in the culinary community."
+            },
+            {
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "1/2 lb ground pork",
+                    "3 garlic cloves, minced",
+                    "2 tbsp soy sauce",
+                    "1 tbsp Chinese black vinegar",
+                    "1 tbsp cornstarch",
+                    "1/4 cup vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.4,
+                "description": "Chef Zhang is a master of Sichuan cuisine, known for his bold and spicy flavors that pack a punch. He is a stickler for authenticity and uses only the finest Sichuan peppercorns and spices to create his signature dishes."
+            },
+            {
+                "name": "Steamed Fish with Ginger and Scallions",
+                "ingredients": [
+                    "1 bunch scallions, thinly sliced",
+                    "2 tbsp soy sauce",
+                    "2 tbsp rice wine or dry sherry",
+                    "1 tbsp vegetable oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.9,
+                "description": "Chef Wang is a master of Shanghainese cuisine, known for her delicate and elegant flavors that showcase the freshest seafood and vegetables. She has traveled extensively throughout China to learn about regional flavors and techniques and has won numerous awards for her innovative take on classic dishes."
+            }
         ],
         "likes": 85,
         "numberOfRecipes": 30,
